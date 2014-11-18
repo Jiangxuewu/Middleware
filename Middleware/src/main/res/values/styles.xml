@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application的自定义主题 -->
+    <style name="BaseAppTheme" parent="@android:style/Theme.NoTitleBar">
+
+        <!-- 所有Activity都是竖屏的 -->
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 设置Activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+
+    <!-- Activity之间的跳转效果 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+    <!-- Launcher Activity的主题 -->
+    <style name="BaseLaunchTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <!-- 所有Activity都是竖屏的 -->
+        <item name="android:screenOrientation">portrait</item>
+        <!-- 设置窗口背景图片，避免启动时的白屏 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 设置Activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+
+    <!-- Launcher Activity的主题 -->
+    <style name="BaseTipActivity" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <!-- 所有Activity都是竖屏的 -->
+        <item name="android:screenOrientation">portrait</item>
+        <!-- 设置窗口背景图片，避免启动时的白屏 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 设置Activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>
