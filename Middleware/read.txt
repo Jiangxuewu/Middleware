@@ -1,0 +1,31 @@
+1, sign in
+2, register broadcast GlobalVariables.VS_ACTION_SIGNIN
+3,start thread   target = GlobalVariables.INTERFACE_SIGIN, actionName = GlobalVariables.VS_ACTION_SIGNIN
+4,http://agw-t.guoling.com:1314/1.0/gl/check_in
+
+
+
+
+
+
+Android studio color  
+1, background color  #2B2B2B   selected #323232
+2, text color    #A9B7C6 
+3,  Java关键字的颜色#CB772F
+4, 变量颜色#977584
+5, 注释的颜色、“String的颜色” #478554
+6, override的颜色#BBB529
+7, 布局中值的颜色#7FC160
+8, 方法名、布局中<TextView 的颜色 #E7BE55
+9, 注释的颜色 #808080
+
+
+1,RoboGuice 
+2,Maven
+3,Gradle  user guide address : http://www.gradle.org/docs/current/userguide/userguide_single.html#N13120
+
+
+
+1,strings.xml
+	中用到&#8230;
+
