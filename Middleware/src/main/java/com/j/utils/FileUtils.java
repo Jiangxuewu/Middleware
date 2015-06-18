@@ -217,9 +217,9 @@ public class FileUtils {
 			file.getParentFile().mkdirs();
 		}
 		if (file.createNewFile()) {
-			Log.i(TAG, "make success");
+			Log.v(TAG, "make success");
 		} else {
-			Log.i(TAG, "the file is exits");
+			Log.v(TAG, "the file is exits");
 		}
 		return file;
 	}
