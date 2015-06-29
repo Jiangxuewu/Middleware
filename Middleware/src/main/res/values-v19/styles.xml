@@ -9,14 +9,11 @@
         <item name="android:windowBackground">@android:color/white</item>
         <!-- 设置Activity切换动画 -->
         <item name="android:windowAnimationStyle">@style/activityAnimation</item>
-
         <!--顶部的状态栏(status bar）透明化-->
         <item name="android:windowTranslucentStatus">true</item>
         <!--底部系统自带的导航栏(native bar）透明化-->
         <item name="android:windowTranslucentNavigation">false</item>
         <!--设置ActionBar是否需要-->
         <item name="android:windowActionBar">false</item>
-
-
     </style>
 </resources>

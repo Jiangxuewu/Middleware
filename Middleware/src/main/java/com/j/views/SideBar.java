@@ -39,9 +39,9 @@ public class SideBar extends View {
     private int choose = -1;// 选中
     private Paint paint = new Paint();
 
-    private String[] b = {"#", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K",
+    private String[] b = {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K",
             "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X",
-            "Y", "Z"};
+            "Y", "Z", "#"};
 
     private TextView mTextDialog;
 

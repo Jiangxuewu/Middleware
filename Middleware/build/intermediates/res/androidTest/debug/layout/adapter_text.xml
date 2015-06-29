@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="30dip"
+        android:background="#40000000"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dip"
+        android:text="A"
+        android:textColor="#454545"
+        android:textSize="18dip"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/_input_bg_normal"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dip"
+        android:text="30.00"
+        android:textColor="#000000"
+        android:textSize="7pt" />
+
+</LinearLayout><!-- From: file:/D:/Android/Workspace/HuiXunTong/Middleware/Middleware/src/main/res/layout/adapter_text.xml --><!-- From: file:/D:/Android/Workspace/HuiXunTong/Middleware/Middleware/build/intermediates/bundles/debug/res/layout/adapter_text.xml -->

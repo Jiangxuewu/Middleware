@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/sina_refresh_icon"
+    android:pivotX="50%"
+    android:pivotY="50%" 
+    >
+
+</rotate><!-- From: file:/D:/Android/Workspace/HuiXunTong/Middleware/Middleware/src/main/res/drawable/progressbg.xml --><!-- From: file:/D:/Android/Workspace/HuiXunTong/Middleware/Middleware/build/intermediates/bundles/debug/res/drawable/progressbg.xml -->

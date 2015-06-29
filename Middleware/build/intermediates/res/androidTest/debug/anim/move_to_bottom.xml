@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><!--滑向屏幕底部消失-->
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:duration="10000"
+        android:fromYDelta="100.0%p"
+        android:toYDelta="200.0%p" />
+</set><!-- From: file:/D:/Android/Workspace/HuiXunTong/Middleware/Middleware/src/main/res/anim/move_to_bottom.xml --><!-- From: file:/D:/Android/Workspace/HuiXunTong/Middleware/Middleware/build/intermediates/bundles/debug/res/anim/move_to_bottom.xml -->

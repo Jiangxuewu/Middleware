@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res"><file name="move_to_bottom" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\anim\move_to_bottom.xml" qualifiers="" type="anim"/><file name="move_to_up" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\anim\move_to_up.xml" qualifiers="" type="anim"/><file name="slide_left_in" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\anim\slide_left_in.xml" qualifiers="" type="anim"/><file name="slide_left_out" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\anim\slide_left_out.xml" qualifiers="" type="anim"/><file name="slide_right_in" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\anim\slide_right_in.xml" qualifiers="" type="anim"/><file name="slide_right_out" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\anim\slide_right_out.xml" qualifiers="" type="anim"/><file name="progressbg" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\drawable\progressbg.xml" qualifiers="" type="drawable"/><file name="folder_green" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\drawable-hdpi\folder_green.png" qualifiers="hdpi" type="drawable"/><file name="format_folder" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\drawable-hdpi\format_folder.png" qualifiers="hdpi" type="drawable"/><file name="format_unkown" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\drawable-hdpi\format_unkown.png" qualifiers="hdpi" type="drawable"/><file name="format_up" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\drawable-hdpi\format_up.png" qualifiers="hdpi" type="drawable"/><file name="pulltorefresh" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\drawable-hdpi\pulltorefresh.png" qualifiers="hdpi" type="drawable"/><file name="sina_refresh_icon" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\drawable-hdpi\sina_refresh_icon.png" qualifiers="hdpi" type="drawable"/><file name="_input_bg_normal" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\drawable-hdpi\_input_bg_normal.9.png" qualifiers="hdpi" type="drawable"/><file name="default_img" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\drawable-xxhdpi\default_img.png" qualifiers="xxhdpi" type="drawable"/><file name="shadow_bottom" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\drawable-xxhdpi\shadow_bottom.png" qualifiers="xxhdpi" type="drawable"/><file name="shadow_left" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\drawable-xxhdpi\shadow_left.png" qualifiers="xxhdpi" type="drawable"/><file name="shadow_right" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\drawable-xxhdpi\shadow_right.png" qualifiers="xxhdpi" type="drawable"/><file name="activity_main" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="adapter_text" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\layout\adapter_text.xml" qualifiers="" type="layout"/><file name="camera_layout" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\layout\camera_layout.xml" qualifiers="" type="layout"/><file name="filedialogitem" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\layout\filedialogitem.xml" qualifiers="" type="layout"/><file name="progress" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\layout\progress.xml" qualifiers="" type="layout"/><file name="pulllist_head" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\layout\pulllist_head.xml" qualifiers="" type="layout"/><file name="swipeback_layout" path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\layout\swipeback_layout.xml" qualifiers="" type="layout"/><file path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\values\arrays.xml" qualifiers=""><string-array name="week_day">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array></file><file path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="SwipeBackLayout">
+        <attr format="dimension" name="edge_size"/>
+        <attr name="edge_flag">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="bottom" value="2"/>
+            <enum name="all" value="3"/>
+        </attr>
+        <attr format="reference" name="shadow_left"/>
+        <attr format="reference" name="shadow_right"/>
+        <attr format="reference" name="shadow_bottom"/>
+    </declare-styleable><attr format="reference" name="SwipeBackLayoutStyle"/><declare-styleable name="MyCheckBox">
+        <attr format="reference" name="back_drawable"/>
+        <attr format="reference" name="selected_drawable"/>
+        <attr format="boolean" name="selected"/>
+    </declare-styleable></file><file path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\values\strings.xml" qualifiers=""><string name="sure">确定</string><string name="cancel">取消</string><string name="release_to_refresh">松开刷新</string><string name="pull_to_refresh">下拉刷新</string><string name="get_more">获取更多</string><string name="updating">最近更新：</string><string name="refreshing">正在刷新...</string><string name="pls_wait">请稍等。。。</string><string name="app_name">Libs</string><string name="camera_btn">拍照</string><string name="restore_success">回复成功</string><string name="backup_success">备份成功</string></file><file path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\values\styles.xml" qualifiers=""><style name="BaseLaunchTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <!-- 所有Activity都是竖屏的 -->
+        <item name="android:screenOrientation">portrait</item>
+        <!-- 设置窗口背景图片，避免启动时的白屏 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 设置Activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style><style name="BaseAppTheme" parent="@android:style/Theme.NoTitleBar">
+
+        <!-- 所有Activity都是竖屏的 -->
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 设置Activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style><style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style><style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style><style name="CommonDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+    </style><style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style><style name="BaseTipActivity" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <!-- 所有Activity都是竖屏的 -->
+        <item name="android:screenOrientation">portrait</item>
+        <!-- 设置窗口背景图片，避免启动时的白屏 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 设置Activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style></file><file path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\values-en\strings.xml" qualifiers="en"><string name="hello_world">Hello world!</string><string name="refreshing">Refreshing...</string><string name="backup_success">Successful data backup</string><string name="release_to_refresh">Loosen the refresh</string><string name="restore_success">The recovery was successful, please restart App</string><string name="updating">The recently updated：</string><string name="action_settings">Settings</string><string name="pls_wait">Please waiting。。。</string><string name="cancel">Cancel</string><string name="app_name">Libs</string><string name="restore_failed">Restore failed, please re select recovery</string><string name="pull_to_refresh">Pull down to refresh</string><string name="name">middleware</string><string name="sure">Sure</string><string name="camera_btn">Take photos</string><string name="get_more">Get more</string></file><file path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\main\res\values-v19\styles.xml" qualifiers="v19"><style name="BaseAppTheme" parent="@android:style/Theme.NoTitleBar">
+
+        <!-- 所有Activity都是竖屏的 -->
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 设置Activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+        <!--顶部的状态栏(status bar）透明化-->
+        <item name="android:windowTranslucentStatus">true</item>
+        <!--底部系统自带的导航栏(native bar）透明化-->
+        <item name="android:windowTranslucentNavigation">false</item>
+        <!--设置ActionBar是否需要-->
+        <item name="android:windowActionBar">false</item>
+    </style></file></source><source path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\build\generated\res\rs\release"/><source path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\build\generated\res\generated\release"/></dataSet><dataSet config="release"><source path="D:\Android\Workspace\HuiXunTong\Middleware\Middleware\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="MyCheckBox"><attr format="reference" name="back_drawable"/><attr format="reference" name="selected_drawable"/><attr format="boolean" name="selected"/></declare-styleable><declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="bottom" value="2"/><enum name="all" value="3"/></attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable></configuration></mergedItems></merger>

@@ -14,4 +14,10 @@
     </declare-styleable>
 
     <attr name="SwipeBackLayoutStyle" format="reference"/>
+
+    <declare-styleable name="MyCheckBox">
+        <attr name="back_drawable" format="reference"/>
+        <attr name="selected_drawable" format="reference"/>
+        <attr name="selected" format="boolean"/>
+    </declare-styleable>
 </resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <SurfaceView
+        android:id="@+id/camera_surface_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <Button
+        android:id="@+id/camera_change"
+        android:layout_width="60dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dip"
+        android:background="#11444444"
+        android:text="C"
+        android:textColor="@android:color/white"
+        android:textSize="10pt" />
+
+    <Button
+        android:id="@+id/camera_btn"
+        android:layout_width="60dip"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:background="#11444444"
+        android:text="@string/camera_btn"
+        android:textColor="@android:color/white"
+        android:textSize="10pt" />
+
+    <Gallery
+        android:id="@+id/gallery_view"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_toLeftOf="@+id/camera_btn"
+        android:visibility="gone" />
+
+</RelativeLayout><!-- From: file:/D:/Android/Workspace/HuiXunTong/Middleware/Middleware/src/main/res/layout/camera_layout.xml -->

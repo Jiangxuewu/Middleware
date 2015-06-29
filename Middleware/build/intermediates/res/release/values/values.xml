@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Android/Workspace/HuiXunTong/Middleware/Middleware/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="week_day">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+    <!-- From: file:/D:/Android/Workspace/HuiXunTong/Middleware/Middleware/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="reference" name="SwipeBackLayoutStyle"/>
+    <declare-styleable name="MyCheckBox"><attr format="reference" name="back_drawable"/><attr format="reference" name="selected_drawable"/><attr format="boolean" name="selected"/></declare-styleable>
+    <declare-styleable name="StickyListHeadersListView"><attr name="android:clipToPadding"/><attr name="android:scrollbars"/><attr name="android:overScrollMode"/><attr name="android:padding"/><attr name="android:paddingLeft"/><attr name="android:paddingTop"/><attr name="android:paddingRight"/><attr name="android:paddingBottom"/><attr name="android:fadingEdgeLength"/><attr name="android:requiresFadingEdge"/><attr name="android:cacheColorHint"/><attr name="android:choiceMode"/><attr name="android:drawSelectorOnTop"/><attr name="android:fastScrollEnabled"/><attr name="android:fastScrollAlwaysVisible"/><attr name="android:listSelector"/><attr name="android:scrollingCache"/><attr name="android:scrollbarStyle"/><attr name="android:divider"/><attr name="android:dividerHeight"/><attr name="android:transcriptMode"/><attr format="boolean" name="hasStickyHeaders"/><attr format="boolean" name="isDrawingListUnderStickyHeader"/></declare-styleable>
+    <declare-styleable name="SwipeBackLayout"><attr format="dimension" name="edge_size"/><attr name="edge_flag"><enum name="left" value="0"/><enum name="right" value="1"/><enum name="bottom" value="2"/><enum name="all" value="3"/></attr><attr format="reference" name="shadow_left"/><attr format="reference" name="shadow_right"/><attr format="reference" name="shadow_bottom"/></declare-styleable>
+    <!-- From: file:/D:/Android/Workspace/HuiXunTong/Middleware/Middleware/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/Android/Workspace/HuiXunTong/Middleware/Middleware/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Libs</string>
+    <string name="backup_success">备份成功</string>
+    <string name="camera_btn">拍照</string>
+    <string name="cancel">取消</string>
+    <string name="get_more">获取更多</string>
+    <string name="pls_wait">请稍等。。。</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="release_to_refresh">松开刷新</string>
+    <string name="restore_success">回复成功</string>
+    <string name="sure">确定</string>
+    <string name="updating">最近更新：</string>
+    <!-- From: file:/D:/Android/Workspace/HuiXunTong/Middleware/Middleware/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="BaseAppTheme" parent="@android:style/Theme.NoTitleBar">
+
+        <!-- 所有Activity都是竖屏的 -->
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 设置Activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+    <style name="BaseLaunchTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <!-- 所有Activity都是竖屏的 -->
+        <item name="android:screenOrientation">portrait</item>
+        <!-- 设置窗口背景图片，避免启动时的白屏 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 设置Activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+    <style name="BaseTipActivity" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <!-- 所有Activity都是竖屏的 -->
+        <item name="android:screenOrientation">portrait</item>
+        <!-- 设置窗口背景图片，避免启动时的白屏 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <!-- 设置Activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+    <style name="CommonDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+    </style>
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="SwipeBackLayout">
+        <item name="edge_size">50dip</item>
+        <item name="shadow_left">@drawable/shadow_left</item>
+        <item name="shadow_right">@drawable/shadow_right</item>
+        <item name="shadow_bottom">@drawable/shadow_bottom</item>
+    </style>
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+</resources>
